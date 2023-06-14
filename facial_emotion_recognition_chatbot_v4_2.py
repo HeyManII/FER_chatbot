@@ -15,7 +15,7 @@ import cv2
 from chatterbot.conversation import Statement
 
 # Set up FER
-model = load_model('emotion_detection.h5')
+model = load_model('model_file.h5')
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 global response
 
